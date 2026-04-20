@@ -8,6 +8,9 @@
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 
+## [Full Report](https://github.com/gauravkamble-insights/COVID-Data-Exploration-Dashboard/blob/main/report/Global%20Pandemic%20Impact%20Analysis.pdf)
+
+
 ## Overview
 This project provides a comprehensive analysis of the global COVID-19 pandemic by combining SQL-based data exploration with interactive Tableau visualizations. By processing approximately 85,000 records, the project uncovers critical insights into infection rates, mortality probabilities, and vaccination rollouts across various countries and continents. The end goal was to transform raw data from Our World in Data into a professional dashboard that highlights the geographic and temporal impact of the virus.
 
@@ -37,18 +40,18 @@ The raw data underwent several stages of preparation:
 
 
 ## Key Insights:
-**Global Pandemic Summary:** A high-level overview of global cases (150.5 million) and deaths (3.18 million), with a global death percentage of ~2.11%.
-<img width="413" height="51" alt="Global numbers" src="https://github.com/user-attachments/assets/d99e8d6f-917a-4395-ab01-be922443ca9f" />
+**Global Pandemic Summary:** A high-level overview of global cases (150.5 million) and deaths (3.18 million), with a global death percentage of ~2.11%.  
+<img width="413" height="51" alt="Global numbers" src="https://github.com/gauravkamble-insights/COVID-Data-Exploration-Dashboard/blob/main/assets/Global%20numbers.png" />
 
 
-**Infection Rate Comparisons:** Identifying countries with the highest infection rates relative to their population, such as Andorra (17.1%) and Montenegro (15.5%).
-<img width="676" height="402" alt="Infected %" src="https://github.com/user-attachments/assets/6a81ede2-a21b-4e62-9eb2-6478198c9f1f" />
+**Infection Rate Comparisons:** Identifying countries with the highest infection rates relative to their population, such as Andorra (17.1%) and Montenegro (15.5%).  
+<img width="676" height="402" alt="Infected %" src="https://github.com/gauravkamble-insights/COVID-Data-Exploration-Dashboard/blob/main/assets/Infected%20%25.png" />
 
-**Top Countries by Death Count:** Tracking mortality leaders, showing the United States with the highest death count (576,232) during the study period.
-<img width="319" height="401" alt="Death Count" src="https://github.com/user-attachments/assets/10a8da0d-2a89-464a-ba9e-3d77894cd042" />
+**Top Countries by Death Count:** Tracking mortality leaders, showing the United States with the highest death count (576,232) during the study period.  
+<img width="319" height="401" alt="Death Count" src="https://github.com/gauravkamble-insights/COVID-Data-Exploration-Dashboard/blob/main/assets/Death%20Count.png" />
 
-**Mortality by Continent:** Breaking down total deaths by region to show the impact on North America, South America, and Asia.
-<img width="311" height="176" alt="Continents Death count" src="https://github.com/user-attachments/assets/ae23c694-2edb-4052-899e-bf3b7590e85c" />
+**Mortality by Continent:** Breaking down total deaths by region to show the impact on North America, South America, and Asia.  
+<img width="311" height="176" alt="Continents Death count" src="https://github.com/gauravkamble-insights/COVID-Data-Exploration-Dashboard/blob/main/assets/Continents%20Death%20count.png" />
 
 **Vaccination Rollout Tracking:** Utilizing Windows Functions (PARTITION BY) to create a rolling count of vaccinations by location and date.
 
